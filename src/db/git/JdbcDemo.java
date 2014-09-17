@@ -7,6 +7,7 @@ import java.util.logging.Logger;
  
 public class JdbcDemo { 
  
+    
   public static final String userName = "hau"; 
   public static final String pw = "hau"; 
   public static final String dbms = "oracle"; 

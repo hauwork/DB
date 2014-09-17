@@ -11,3 +11,5 @@ insert into Person values(100,'Peter','Hansen');
 insert into Person values(110,'Lone','Hansen'); 
 insert into Person values(120,'John','McDonald'); 
 insert into Person values(130,'Peter','Jensen'); 
+
+commit;
