@@ -36,7 +36,8 @@ public class JdbcDemo {
       ResultSet rs = stmt.getResultSet(); 
       while (rs.next()) { 
         System.out.println("Id:" + rs.getInt(1) + ", " + rs.getString("FIRST_NAME") + ", "  
-                            + rs.getString("LAST_NAME")); 
+                            + rs.getString("LAST_NAME") +", "
+                            + rs.getInt("PHONE")); 
       } 
     } 
   } 
